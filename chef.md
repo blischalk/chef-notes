@@ -47,3 +47,10 @@
 - `knife bootstrap ADDRESS --ssh-user root --ssh-password PASSWORD --node-name node1 --run-list 'recipe[webserver]' --bootstrap-version 11.12.8
 `
 - `knife cookbook upload webserver`
+
+## Kitchen
+
+Test a cookbook with `kitchen test -d never`
+`kitchen converge`
+Login to a box with `kitchen login`
+Sudo into a suer with `sudo su - username-here`
